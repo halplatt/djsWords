@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-- Version Combined version of wordsearch.html and wordsearch.js and _wordsearch.css
-    3/13/2024 Generic version of wordsearch.htm to be used inside any dictionary of words with ./_words.array.js and ./!PNGCustom/_words.array2.js
+<!-- Version Combined version of wordsearch.html and wordsearch.js and !wordsearch.css
+    3/13/2024 Generic version of wordsearch.htm to be used inside any dictionary of words with ./!words.array.js and ./!PNGCustom/!words.array2.js
 -->
 <html lang="en">
 <head>
@@ -38,12 +38,12 @@
             });
             // create a script tag to load the dict1 array
             let script1 = document.createElement('script');
-            script1.src = imagePath1 + '_words.array.js';
+            script1.src = imagePath1 + '!words.array.js';
             document.head.appendChild(script1);
 
             // create a script tag to load the dict2 array        
             let script2 = document.createElement('script');
-            script2.src = imagePath2 + '_words.array2.js'; //path to Customize dict2 array
+            script2.src = imagePath2 + '!words.array2.js'; //path to Customize dict2 array
             document.head.appendChild(script2);
             
             // Add an event listener for the keydown event
