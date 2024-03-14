@@ -103,6 +103,9 @@
                         newTab.close(); // Close the tab if it's still blank
                     }
                 }, 3000); // Adjust the timeout value as needed
+
+                // Debug statement to log the value of newTab.location.href
+                console.log("newTab.location.href:", newTab.location.href);
             };
 
             // Function to perform the search
