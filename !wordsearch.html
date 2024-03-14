@@ -85,24 +85,32 @@
                 url = '/djshorthand.html?x=' + text;
                 var newTab = window.open('', 'DJshorthand');
 
-                // This part is executed in the context of the newly opened window/tab.
-                if (newTab.location.href === "about:blank") {
-                    // If the tab is new and hasn't loaded any page yet, load our URL
-                    newTab.location.href = url;
-                } else {
-                    // If the tab already has content, refresh with the new URL
-                    newTab.location.replace(url);
-                }
-
-                // Bring the tab to front
-                newTab.focus();
-
-                // Check if the page returns a 404 error
-                setTimeout(() => {
+                try {
+                    // This part is executed in the context of the newly opened window/tab.
                     if (newTab.location.href === "about:blank") {
-                        newTab.close(); // Close the tab if it's still blank
+                        // If the tab is new and hasn't loaded any page yet, load our URL
+                        newTab.location.href = url;
+                    } else {
+                        // If the tab already has content, refresh with the new URL
+                        newTab.location.replace(url);
                     }
-                }, 3000); // Adjust the timeout value as needed
+
+                    // Bring the tab to front
+                    newTab.focus();
+
+                    // Check if the page returns a 404 error
+                    setTimeout(() => {
+                        try {
+                            if (newTab.location.href === "about:blank") {
+                                newTab.close(); // Close the tab if it's still blank
+                            }
+                        } catch (error) {
+                            console.error("Failed to access newTab.location.href: inside setTimeout:", error);
+                        }
+                    }, 3000); // Adjust the timeout value as needed
+                } catch (error) {
+                    console.error("Failed to access newTab.location.href: After setTimeout", error);
+                }
 
                 // Debug statement to log the value of newTab.location.href
                 console.log("newTab.location.href:", newTab.location.href);
