@@ -114,6 +114,9 @@
 
                 // Debug statement to log the value of newTab.location.href
                 console.log("newTab.location.href:", newTab.location.href);
+                if (newTab.location.href === "about:blank") {
+                                newTab.close(); // Close the tab if it's still blank
+                }
             };
 
             // Function to perform the search
