@@ -82,7 +82,7 @@
 
             //Function to open in new tab
             function openInNewTab(text) {
-                url='/djshorthand.html?x='+text
+                url = '/djshorthand.html?x=' + text;
                 var newTab = window.open('', 'DJshorthand');
 
                 // This part is executed in the context of the newly opened window/tab.
@@ -96,7 +96,13 @@
 
                 // Bring the tab to front
                 newTab.focus();
-            
+
+                // Check if the page returns a 404 error
+                setTimeout(() => {
+                    if (newTab.location.href === "about:blank") {
+                        newTab.close(); // Close the tab if it's still blank
+                    }
+                }, 3000); // Adjust the timeout value as needed
             };
 
             // Function to perform the search
