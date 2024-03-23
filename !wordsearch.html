@@ -99,6 +99,7 @@
                     newTab.focus();
 
                     // Check if the page returns a 404 error
+                    
                     setTimeout(() => {
                         try {
                             if (newTab.location.href === "about:blank") {
@@ -108,15 +109,18 @@
                             console.error("Failed to access newTab.location.href: inside setTimeout:", error);
                         }
                     }, 3000); // Adjust the timeout value as needed
+                    
                 } catch (error) {
                     console.error("Failed to access newTab.location.href: After setTimeout", error);
                 }
 
                 // Debug statement to log the value of newTab.location.href
                 console.log("newTab.location.href:", newTab.location.href);
+                /*
                 if (newTab.location.href === "about:blank") {
                                 newTab.close(); // Close the tab if it's still blank
-                }
+               }
+               */              
             };
 
             // Function to perform the search
