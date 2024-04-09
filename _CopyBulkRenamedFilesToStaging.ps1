@@ -3,7 +3,7 @@
 $counter = 0
 
 # Read the file _renamed_words.txt from the DJSWords _Bulkrename_words.csv
-$lines = Get-Content -Path "_Bulkrename_words.csv"
+$lines = Get-Content -Path "_Bulkrename_words.txt"
 
 # For each line in the file
 foreach ($line in $lines) {

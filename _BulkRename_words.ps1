@@ -5,7 +5,7 @@
 # '_renamed_words.txt' contains a list of original and corrected words separated by a comma.
 
 # Import the CSV file
-$wordPairs = Import-Csv -Path '_BulkRename_words.csv' -Header 'OriginalWord', 'CorrectWord'
+$wordPairs = Import-Csv -Path '_BulkRename_words.txt' -Header 'OriginalWord', 'CorrectWord'
 
 foreach ($pair in $wordPairs) {
     $originalWord = $pair.OriginalWord
