@@ -1909,3 +1909,181 @@ tlgerwood,tigerwood
 ongs,tongs
 titvate,titivate
 oque,toque
+forthe last,for the last
+i am,I am
+i am glad,I  am glad
+i am of the opinion,I am of the opinion
+i am sure,I am sure
+i came,I came
+i can,I can
+i can be,I can be
+i can have,I can have
+i can say,I can say
+i can see,I can see
+i cannot,I cannot
+i cannot be,I cannot be
+i cannot be sure,I cannot be sure
+i cannot have,I cannot have
+i can't,I can't
+i could,I could
+i could be,I could be
+i could have,I could have
+i could not,I could not
+i desire,I desire
+i did,I did
+i did not,I did not
+i shall not be able,I shall not be able
+i did not say,I did not say
+i hope that,I hope that
+i should,I should
+i hope you will,I hope you will
+i do,I do
+i should be,I should be
+i do not,I do not
+i should have,I should have
+i know,I know
+i do not say,I do not say
+i suggest,I suggest
+i do not see,I do not see
+i made,I made
+i talked,I talked
+i do not think,I do not think
+i thank you,I thank you
+i may be,I may be
+i doubt,I doubt
+i thank you for the,I thank you for the
+i enclose,I enclose
+i may have,I may have
+i think,I think
+i might,I might
+i fear,I fear
+i thought,I thought
+i feel,I feel
+i might be,I might be
+i told,I told
+i feel sure,I feel sure
+i might have,I might have
+i took,I took
+i felt,I felt
+i must,I must
+i want,I want
+i must be,I must be
+i find,I find
+i want to see,I want to see
+i found,I found
+i must have,I must have
+i wanted,I wanted
+i need,I need
+i gave,I gave
+i was,I was
+i give,I give
+i notice,I notice
+i will,I will
+i have,I have
+i read,I read
+i will be,I will be
+i realize,I realize
+i have been,I have been
+i will be able,I will be able
+i have been able,I have been able
+i regret,I regret
+i will have,I will have
+i have done,I have done
+i said,I said
+i will not,I will not
+i have given,I have given
+i saw,I saw
+i will not be,I will not be
+i have had,I have had
+i say,I say
+i have made,I have made
+i will not be able,I will not be able
+i see,I see
+i will see,I will see
+i have not,I have not
+i sent,I sent
+i wish,I wish
+i have not been able,I have not been able
+i shall,I shall
+i have not had,I have not had
+i would,I would
+i shall be,I shall be
+i would be,I would be
+i have not yet,I have not yet
+i shall be able,I shall be able
+i would have,I would have
+i have seen,I have seen
+i shall be glad,I shall be glad
+i have tried,I have tried
+i would not,I would not
+i shall have,I shall have
+i hope,I hope
+i wrote,I wrote
+i shall make,I shall make
+i wrote you,I wrote you
+i shall not,I shall not
+i hope it will be,I hope it will be
+i shall not be,I shall not be
+titvation,titivation
+toprary,topiary
+totfee,toffee
+toollings,tooling's
+topographrcal,topographical
+topographrcally,topographically
+tollet,toilet
+tolletry,toiletry
+tolletware,toiletware
+traltor,traitor
+traltorous,traitorous
+traltorously,traitorously
+touchest,touchiest
+touchrly,touchily
+trampolin,trampoline
+towpatpath,towpath
+tractarlan,tractarian
+toxcity,toxicity
+travall,travail
+transtormed,transformed
+transtuse,transfuse
+treenall,treenail
+ransfused,transfused
+transmrgration,transmigration
+trnstusion,transfusion
+trapezrum,trapezium
+transter,transfer
+trappist,Trappist
+transitivelyy,transitively
+trashrer,trashier
+transfieure,transfigure
+trrumvir,triumvir
+trigonomettical,trigonometrical
+trivtal,trivial
+trivtalrty,triviality
+trickrer,tricker
+trivrally,trivially
+trolka,troika
+trillicum,Trillium
+trilangle,triangle
+trianeulate,triangulate
+trianeulation,triangulation
+trennial,triennial
+trennially,triennially
+trifed,trifled
+tritumphant,triumphant
+tubbrer,tubbier
+turnlnip,turnip
+turnoft,turnoff
+turbidrty,turbidity
+tumety,tumefy
+tilmorous,tumorous
+tublings,tubings
+truttle,truffle
+tlreen,tureen
+urt,turf
+turted,tufted
+truthtulness,truthfulness
+tunetul,tuneful
+tutorral,tutorial
+twaddied,twaddled
+ubiqurty,ubiquity
+nabridged,unabridged
