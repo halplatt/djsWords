@@ -1,2 +1,1 @@
-department,department
-
+mint,mint

@@ -2407,3 +2407,12 @@ to tollow,to follow
 sir,sari
 Dear Sir,Dear Sirs
 discredi,discredit
+aneglican,anglican
+backbone,backbone
+llar,liar
+llalson,liaison
+promrnence,prominence
+bitumtinous,bituminous
+disintect,disinfect
+industrirous,industrious
+grower,towel
