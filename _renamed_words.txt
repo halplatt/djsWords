@@ -2416,3 +2416,4 @@ bitumtinous,bituminous
 disintect,disinfect
 industrirous,industrious
 grower,towel
+esculation,escalation
