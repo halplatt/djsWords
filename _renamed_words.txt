@@ -2417,3 +2417,7 @@ disintect,disinfect
 industrirous,industrious
 grower,towel
 esculation,escalation
+controntation,confrontation
+interno,inferno
+peware,beware
+reciplent,recipient
