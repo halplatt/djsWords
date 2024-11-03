@@ -80,7 +80,9 @@
                 document.execCommand("copy");
                 clipboardInput.value = "";
                 if (window.location.hostname !== "halplatt.github.io") {
-                    openInNewTab(text)
+                    openInNewTab(text);
+                } else {
+                    openInNewTabGithub(text);
                 }
                 
             }
@@ -88,6 +90,25 @@
             //Function to open in new tab
             function openInNewTab(text) {
                 url = '/djshorthand.html?x=' + text;
+                var newTab = window.open('', 'DJshorthand');
+                try {
+                    // This part is executed in the context of the newly opened window/tab.
+                    if (newTab.location.href === "about:blank") {
+                        // If the tab is new and hasn't loaded any page yet, load our URL
+                        newTab.location.href = url;
+                    } else {
+                        // If the tab already has content, refresh with the new URL
+                        newTab.location.replace(url);
+                    }
+                    // Bring the tab to front
+                    newTab.focus();          
+                } catch (error) {
+                    console.error(error);
+                }
+            }
+            //Function to open in new tab
+            function openInNewTabGithub(text) {
+                url = '/GreggDictionary/djshorthand.html?x=' + text;
                 var newTab = window.open('', 'DJshorthand');
                 try {
                     // This part is executed in the context of the newly opened window/tab.
