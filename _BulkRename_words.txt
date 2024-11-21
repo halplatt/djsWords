@@ -1,1 +1,12 @@
-ditter,differ
+four,for
+seven,several months
+fathers,father
+fathers,faithless
+testing,test
+met,meet
+resting,rest
+gave,gave me
+lives,live
+fitting,fit
+living,live
+remaining,remain
