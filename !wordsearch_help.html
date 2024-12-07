@@ -111,7 +111,7 @@
         <ul>
             <li><strong>grouping characters </strong>group charaters</strong> inside <code>( )</code> to apply repetition.</li>
             <li class="example">Example applying repetition to a group: <code>(er){2,}</code> will match words where "er" occurs at least 2 times in succession. ie. "discov<b>erer</b>" and sup<b>erer</b>ogation.</li>
-            <li><strong>| (pipe)</strong>pipe</strong> separate two patterns with <code>|</code> the | (pipe) character, which acts as an OR operator.</li>
+            <li>The <strong>| (pipe)</strong> character separates two or more patterns, acting as an OR operator. This means the all the results for patterns separated by the | (pipe) will be returned.</li>
             <li class="example">Example  of using |: <code>^single$|^double$</code> will match "single", "double".</li>
         </ul>
         
