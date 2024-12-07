@@ -2426,3 +2426,5 @@ bat,hat
 techntical,technical
 ratt,raft
 rattia,raffia
+ped,pea
+biographtcally,biographically
